@@ -1,4 +1,5 @@
 relativeurls = false
+baseURL='https://polodev.github.com/feni1/'
 languageCode = "en-us"
 publishDir="docs"
 title = "Site"
@@ -8,10 +9,7 @@ disqusShortname = "dev-learning"
 [taxonomies]
   category="categories"
   tag="tags"
-  author="authors"
-  tutorialType="tutorialTypes"
-  dtag="dtags"
-  [outputs]
+[outputs]
 home = [ "HTML", "RSS", "JSON"]
 [menu]
   [[menu.main]]
@@ -21,60 +19,11 @@ home = [ "HTML", "RSS", "JSON"]
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "deck"
-    title = "decks"
-    url = "/decks/"
-    weight = 2
-  [[menu.main]]
-    identifier = "tutorial"
-    title = "tutorials"
-    url = "/tutorials/"
-    weight = 2
-  [[menu.main]]
-    identifier = "daily-journal"
-    title = "dj"
-    url = "/daily-journal/"
-    weight = 4
-  [[menu.main]]
-    identifier = "daily-science"
-    title = "ds"
-    url = "/daily-science/"
-    weight = 4
-  [[menu.main]]
-    identifier = "dates"
-    name = "this is dates page"
-    title = "dates"
-    url = "/dates/"
-    weight = 98
-  [[menu.main]]
     identifier = "about"
     name = "this is about page"
     title = "about"
     url = "/about/"
     weight = 99
-  [[menu.main]]
-    identifier = "international-affairs"
-    title = "ia"
-    url = "/international-affairs/"
-    weight = 4
-  [[menu.main]]
-    identifier = "bangladesh-affairs"
-    name = "Bangladesh affair"
-    title = "ba"
-    url = "/bangladesh-affairs/"
-    weight = 5
-  [[menu.main]]
-    identifier = "math"
-    name = "math"
-    title = "math"
-    url = "/math/"
-    weight = 6
-  [[menu.main]]
-    identifier = "english"
-    name = "english"
-    title = "english"
-    url = "/english/"
-    weight = 7
 
 [related]
 
@@ -91,19 +40,6 @@ toLower = false
 name = "keywords"
 weight = 150
 [[related.indices]]
-name  = "author"
-toLower = true
-weight = 30
-[[related.indices]]
 name  = "tags"
 weight = 200
-[[related.indices]]
-name  = "dtags"
-weight = 200
-[[related.indices]]
-name  = "date"
-weight = 10
-[[related.indices]]
-name  = "type"
-weight = 1000
 
